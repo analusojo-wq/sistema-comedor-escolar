@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>Panel Administrador</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<h2>🔒 Panel Administrador</h2>
+
+<!-- LOGIN -->
+
+<div id="login">
+
+<input type="password" id="password" placeholder="Contraseña">
+
+<button id="btnEntrar" onclick="login()">Entrar</button>
+
+<button onclick="volver()">⬅ Volver a estudiantes</button>
+
+</div>
+
+
+<!-- PANEL ADMIN -->
+
+<div id="panel" style="display:none">
+
+<button onclick="volver()">⬅ Volver a estudiantes</button>
+
+<button onclick="logout()">Cerrar sesión</button>
+
+<h3 id="contador"></h3>
+
+<button id="btnExportar">Exportar registros</button>
+
+<h3>Estudiantes que almorzaron hoy</h3>
+
+<ul id="lista"></ul>
+
+</div>
+
+</div>
+
+<script type="module" src="admin.js"></script>
+
+</body>
+
+</html>

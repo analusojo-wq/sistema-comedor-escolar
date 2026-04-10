@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>Comedor Colegio</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="topbar">
+<button onclick="irAdmin()">🔒 Login</button>
+</div>
+
+<div class="contenedor">
+
+<h2>🍛 Control Comedor</h2>
+
+<h3 id="contador">Almuerzos hoy: 0</h3>
+
+<input type="text" id="cedula" placeholder="Número de cédula">
+
+<input type="text" id="nombre" placeholder="Nombre del estudiante">
+
+<button id="btnRegistrar">Registrar almuerzo</button>
+
+<p id="mensaje"></p>
+
+</div>
+
+<script>
+
+function irAdmin(){
+window.location.href="admin.html";
+}
+
+</script>
+
+<script type="module" src="app.js"></script>
+
+</body>
+
+</html>
