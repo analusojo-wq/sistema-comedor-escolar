@@ -1,5 +1,5 @@
 # 🍛 Sistema de Gestión de Comedor Estudiantil
-📄 Descargar mi Portafolio Profesional en PDF
+
 ## Descripción del Proyecto
 [cite_start]Es una solución web desarrollada para automatizar el registro de almuerzos en una institución educativa[cite: 1, 27]. [cite_start]El sistema permite la entrada de datos de forma rápida y ofrece un contador dinámico para llevar el control diario[cite: 1, 28].
 
